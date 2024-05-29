@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="quiz.css">
+</head>
+<body>
+    <h1>Coding Basics Quiz</h1>
+    <form id="quizForm">
+        <div class="form-group">
+            <p>Enter your name</p>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-group">
+            <p>Enter Age</p>
+            <input type="text" id="age" name="age" required>
+        </div>
+
+        <div class="form-group">
+            <p id="q-1">Q1. Which language is used for web development along with HTML and CSS?</p>
+            <label><input type="radio" name="q1" value="Python" required> Python</label><br>
+            <label><input type="radio" name="q1" value="JavaScript"> JavaScript</label><br>
+            <label><input type="radio" name="q1" value="Java"> Java</label><br>
+            <label><input type="radio" name="q1" value="C++"> C++</label>
+        </div>
+
+        <div class="form-group">
+            <p id="q-2">Q2. What does 'HTML' stand for?</p>
+            <label><input type="radio" name="q2" value="Hyper Trainer Marking Language" required> Hyper Trainer Marking Language</label><br>
+            <label><input type="radio" name="q2" value="Hyper Text Markup Language"> Hyper Text Markup Language</label><br>
+            <label><input type="radio" name="q2" value="Hyper Text Marking Language"> Hyper Text Marking Language</label><br>
+            <label><input type="radio" name="q2" value="Hyperlinks and Text Markup Language"> Hyperlinks and Text Markup Language</label>
+        </div>
+
+        <div class="form-group">
+            <p id="q-3">Q3. Which symbol is used for comments in Python?</p>
+            <label><input type="radio" name="q3" value="<!-- -->" required> <!-- --></label><br>
+            <label><input type="radio" name="q3" value="//"> //</label><br>
+            <label><input type="radio" name="q3" value="#"> #</label><br>
+            <label><input type="radio" name="q3" value="/* */"> /* */</label>
+        </div>
+
+        <div class="form-group">
+            <p id="q-4">Q4. What is the correct syntax to output "Hello World" in Java?</p>
+            <label><input type="radio" name="q4" value='System.out.println("Hello World");' required> System.out.println("Hello World");</label><br>
+            <label><input type="radio" name="q4" value='echo "Hello World";'> echo "Hello World";</label><br>
+            <label><input type="radio" name="q4" value='print("Hello World")'> print("Hello World")</label><br>
+            <label><input type="radio" name="q4" value='Console.WriteLine("Hello World");'> Console.WriteLine("Hello World");</label>
+        </div>
+
+        <div class="form-group">
+            <button type="submit">Submit</button>
+        </div>
+    </form>
+    <script src="quiz.js"></script>
+</body>
+</html>
